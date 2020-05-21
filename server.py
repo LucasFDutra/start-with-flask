@@ -13,7 +13,7 @@ def api():
 @app.route('/api/test_params/<param_value>')
 def testParams(param_value):
     return jsonify({
-        'hello_response': 'Hello to api route', 
+        'hello_response': 'Hello to params route', 
         'param_response': param_value
     })
 
