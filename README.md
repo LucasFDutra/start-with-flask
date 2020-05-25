@@ -10,9 +10,10 @@
     $ pip3 install gunicorn
     ```
 
-O projeto será simples, então terá apenas um arquivo chamado `server.py`, que irá criar o servidor e cinco rotas. Sendo que uma não receberá nenhum parâmetro e as outras receberão cada uma um parâmetro em lugares diferentes, no `header`, `body`, `params` e `query params`.
+# Do que se trata esse repositório
+O objetivo desse repositório é criar um guia basico de como criar uma aplicação com flask, e para isso criarei um projeto simples, que terá apenas um arquivo chamado `server.py`, que irá criar o servidor e cinco rotas. Sendo que uma não receberá nenhum parâmetro e as outras receberão cada uma um parâmetro em lugares diferentes, no `header`, `body`, `params` e `query params`.
 
-Fare com que as rotas iniciem por `/api`, mas poderia ser qualquer coisa, inclusive somente `/`.
+Farei com que as rotas iniciem por `/api`, mas poderia ser qualquer coisa, inclusive somente `/`.
 
 > OBS.: Quando uma parâmetro chega na rota ele é sempre uma string. Então fique atento a tipagem do que está recebendo. Mesmo com python não sendo tipado o tipo importa em certas ocasiões.
 
