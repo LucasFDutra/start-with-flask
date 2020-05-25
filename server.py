@@ -24,7 +24,7 @@ def testQueryPamans():
         'hello_response': 'Hello to query params route',
         'param_response': param_value
     })
-fhjejsafdç
+
 @app.route('/api/test_header')
 def testHeader():
     param_value = request.headers['param_value']
